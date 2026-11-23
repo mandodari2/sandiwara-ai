@@ -1,0 +1,40 @@
+name: Extract project archive
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: List and extract archive
+        run: |
+          set -e
+          ls -la
+          echo "--- archive contents ---"
+          tar -tzf sandiwara-ai-project.tar.gz
+          echo "--- top level ---"
+          tar -tzf sandiwara-ai-project.tar.gz | cut -d/ -f1 | sort -u
+          FIRST=$(tar -tzf sandiwara-ai-project.tar.gz | head -n 1)
+          TOPCOUNT=$(tar -tzf sandiwara-ai-project.tar.gz | cut -d/ -f1 | sort -u | wc -l)
+          STRIP=0
+          case "$FIRST" in */) if [ "$TOPCOUNT" = "1" ]; then STRIP=1; fi ;; esac
+          echo "strip=$STRIP first=$FIRST"
+          mkdir -p /tmp/extracted
+          tar -xzf sandiwara-ai-project.tar.gz -C /tmp/extracted --strip-components=$STRIP --exclude=.git --exclude='*/.git' --exclude=.venv --exclude='*/.venv' --exclude=audio --exclude='*/audio'
+          echo "--- extracted ---"
+          find /tmp/extracted -maxdepth 3 | sort
+          cp -a /tmp/extracted/. .
+          rm -f sandiwara-ai-project.tar.gz
+          echo "--- repo after copy ---"
+          find . -path ./.git -prune -o -type f -print | sort
+          git status --short
+      - name: Commit extracted files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git status --short
+          git commit -m "Add Sandiwara AI project files" || echo "nothing to commit"
+          git push
