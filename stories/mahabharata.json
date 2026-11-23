@@ -1,0 +1,90 @@
+{
+  "characters": [
+    {
+      "description": "Panglima Pandawa, pemanah ulung",
+      "gender": "male",
+      "name": "Arjuna"
+    },
+    {
+      "description": "Ksatria agung, guru para Pandawa dan Kurawa",
+      "gender": "male",
+      "name": "Bisma"
+    },
+    {
+      "description": "Putri Drupada, istri para Pandawa",
+      "gender": "female",
+      "name": "Drupadi"
+    }
+  ],
+  "episodes": [
+    {
+      "audio_url": "/api/episodes/mahabharata-ep1/audio",
+      "duration_sec": 48,
+      "id": "mahabharata-ep1",
+      "script": {
+        "scenes": [
+          {
+            "lines": [
+              {
+                "speaker": "Narator",
+                "text": "Pada zaman dahulu kala, di tanah Bharata, dua keluarga besar berseteru memperebutkan takhta Hastinapura."
+              },
+              {
+                "speaker": "Narator",
+                "text": "Lima Pandawa melawan seratus Kurawa. Perang besar tak terhindarkan."
+              },
+              {
+                "speaker": "Arjuna",
+                "text": "Guru, bagaimana aku bisa mengangkat senjata melawan keluargaku sendiri?"
+              }
+            ],
+            "location": "Balairung istana Hastinapura",
+            "mood": "sad"
+          },
+          {
+            "lines": [
+              {
+                "speaker": "Bisma",
+                "text": "Arjuna, dharma seorang ksatria adalah menegakkan kebenaran, bukan membela darah."
+              },
+              {
+                "speaker": "Arjuna",
+                "text": "Tapi mereka adalah saudaraku, Guru."
+              },
+              {
+                "speaker": "Drupadi",
+                "text": "Dan kehormatanku yang diinjak di balairung ini, siapa yang membelanya?"
+              }
+            ],
+            "location": "Medan Kurukshetra, menjelang fajar",
+            "mood": "tense"
+          },
+          {
+            "lines": [
+              {
+                "speaker": "Narator",
+                "text": "Sangkakala perang ditiup. Seratus ribu pasukan maju."
+              },
+              {
+                "speaker": "Arjuna",
+                "text": "Demi dharma, aku maju!"
+              },
+              {
+                "speaker": "Narator",
+                "text": "Dan perang terbesar dalam sejarah Bharata pun dimulai. Bersambung..."
+              }
+            ],
+            "location": "Medan perang Kurukshetra",
+            "mood": "triumphant"
+          }
+        ],
+        "title": "Kurukshetra"
+      },
+      "title": "Kurukshetra"
+    }
+  ],
+  "genre": "historical",
+  "id": "mahabharata",
+  "synopsis": "Kisah perang besar antara Pandawa dan Kurawa di medan Kurukshetra, dan pergulatan batin Arjuna sebelum mengangkat senjatanya.",
+  "title": "Mahabharata"
+}

@@ -1,0 +1,94 @@
+{
+  "characters": [
+    {
+      "description": "Pemuda tampan dari kayangan",
+      "gender": "male",
+      "name": "Toba"
+    },
+    {
+      "description": "Gadis jelmaan ikan mas",
+      "gender": "female",
+      "name": "Putri Ikan"
+    },
+    {
+      "description": "Anak Toba yang melanggar janji",
+      "gender": "male",
+      "name": "Samosir"
+    }
+  ],
+  "episodes": [
+    {
+      "audio_url": "/api/episodes/danau-toba-ep1/audio",
+      "duration_sec": 49,
+      "id": "danau-toba-ep1",
+      "script": {
+        "scenes": [
+          {
+            "lines": [
+              {
+                "speaker": "Narator",
+                "text": "Konon, di sebuah desa di tanah Batak, hiduplah seorang pemuda bernama Toba."
+              },
+              {
+                "speaker": "Narator",
+                "text": "Suatu hari, ia menangkap seekor ikan mas yang ternyata jelmaan seorang putri."
+              },
+              {
+                "speaker": "Putri Ikan",
+                "text": "Lepaskan aku, dan aku akan menjadi istrimu. Tapi jangan pernah sebut asal-usulku."
+              }
+            ],
+            "location": "Tepi sungai di desa",
+            "mood": "mysterious"
+          },
+          {
+            "lines": [
+              {
+                "speaker": "Toba",
+                "text": "Aku berjanji. Rahasiamu aman bersamaku."
+              },
+              {
+                "speaker": "Narator",
+                "text": "Mereka menikah dan dikaruniai seorang anak laki-laki bernama Samosir."
+              },
+              {
+                "speaker": "Samosir",
+                "text": "Ayah, mengapa ibu selalu melarangku bertanya tentang dirinya?"
+              }
+            ],
+            "location": "Rumah Toba di desa",
+            "mood": "sad"
+          },
+          {
+            "lines": [
+              {
+                "speaker": "Narator",
+                "text": "Suatu hari, dalam kemarahan, Toba mengucapkan kata yang terlarang."
+              },
+              {
+                "speaker": "Toba",
+                "text": "Dasar anak ikan!"
+              },
+              {
+                "speaker": "Putri Ikan",
+                "text": "Kau melanggar janjimu, Toba. Air akan menelan desa ini."
+              },
+              {
+                "speaker": "Narator",
+                "text": "Danau besar pun terbentuk di tempat desa itu berada. Danau Toba. Bersambung..."
+              }
+            ],
+            "location": "Desa yang tenggelam",
+            "mood": "sad"
+          }
+        ],
+        "title": "Anak Ikan"
+      },
+      "title": "Anak Ikan"
+    }
+  ],
+  "genre": "legend",
+  "id": "danau-toba",
+  "synopsis": "Legenda asal-usul Danau Toba: janji yang dilanggar, dan desa yang tenggelam menjadi danau terbesar di Asia Tenggara.",
+  "title": "Legenda Danau Toba"
+}

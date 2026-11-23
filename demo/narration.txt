@@ -1,0 +1,19 @@
+Sandiwara AI. Drama radio Indonesia, dihidupkan lagi oleh AI.
+
+Dulu, di era delapan puluhan dan sembilan puluhan, sandiwara radio adalah hiburan paling populer di Indonesia. Jutaan orang menanti setiap episode Tutur Tinular, Mahabharata, dan legenda lainnya di depan radio. Lalu televisi dan internet datang, dan sandiwara radio pun mati.
+
+Sandiwara AI menghidupkannya kembali.
+
+Pilih cerita klasik Indonesia, atau tulis idemu sendiri. AI menulis naskah, memberi tiap tokoh suara yang berbeda, menambah efek suara dan musik, dan menyajikan drama audio yang siap didengar.
+
+Ini Tutur Tinular, episode pertama. Dengarkan.
+
+[CLIP: Tutur Tinular audio, 30 detik]
+
+Setiap tokoh punya suaranya sendiri. Narator, Kamandanu, Dwipangga, Mei Shin — semuanya berbeda.
+
+Dan kamu bisa membuat dramamu sendiri. Tulis judul, tulis sinopsis, pilih genre — dan dalam hitungan detik, dramamu jadi.
+
+Proyek ini dibangun dengan Kiro, menggunakan spec-driven development. Requirements, design, dan tasks semuanya terdokumentasi di folder dot-kiro.
+
+Sandiwara AI. Kiroween dua ribu dua puluh enam, kategori Resurrection. Karena cerita lama pantas didengar lagi.

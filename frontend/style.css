@@ -1,0 +1,54 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: #121214;
+  color: #f1f5f9;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+header {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+  background: linear-gradient(180deg, #1e293b, #121214);
+  border-bottom: 2px solid #b45309;
+}
+header h1 { font-size: 2.2rem; color: #f59e0b; letter-spacing: 1px; }
+.tagline { color: #94a3b8; font-style: italic; margin-top: 0.3rem; }
+nav { display: flex; justify-content: center; gap: 0.5rem; padding: 1rem; }
+.tab {
+  background: #1e293b; color: #e2e8f0; border: 1px solid #334155;
+  padding: 0.6rem 1.4rem; border-radius: 8px; cursor: pointer; font-size: 1rem;
+}
+.tab.active { background: #b45309; border-color: #b45309; color: #fff; }
+main { max-width: 860px; margin: 0 auto; padding: 1rem; }
+h2 { margin: 1rem 0; color: #f59e0b; }
+.hidden { display: none; }
+.story-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1rem; }
+.story-card {
+  background: #1e293b; border: 1px solid #334155; border-radius: 10px;
+  padding: 1rem; cursor: pointer;
+}
+.story-card:hover { border-color: #b45309; }
+.story-card h3 { color: #fbbf24; margin-bottom: 0.4rem; }
+.story-card p { color: #cbd5e1; font-size: 0.92rem; }
+.story-card .meta { margin-top: 0.6rem; font-size: 0.82rem; color: #94a3b8; }
+button {
+  background: #b45309; color: #fff; border: none; padding: 0.6rem 1.2rem;
+  border-radius: 8px; cursor: pointer; font-size: 1rem; margin: 0.4rem 0;
+}
+button:disabled { opacity: 0.5; cursor: wait; }
+label { display: block; margin: 0.8rem 0; color: #e2e8f0; }
+input, textarea, select {
+  width: 100%; margin-top: 0.3rem; padding: 0.7rem; border-radius: 8px;
+  border: 1px solid #334155; background: #0f172a; color: #f1f5f9; font-size: 1rem;
+}
+#player { margin-top: 1.5rem; background: #1e293b; border-radius: 10px; padding: 1rem; }
+#player audio { width: 100%; margin: 0.6rem 0; }
+.script { font-size: 0.95rem; color: #cbd5e1; }
+.script .line { margin: 0.4rem 0; }
+.script .speaker { color: #f59e0b; font-weight: bold; }
+.script .scene { color: #94a3b8; font-style: italic; margin-top: 0.8rem; }
+footer { text-align: center; color: #64748b; padding: 2rem 1rem; font-size: 0.85rem; }
+#gen-status { margin: 1rem 0; color: #fbbf24; }
+.episode { background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 0.8rem; margin: 0.6rem 0; }
+.episode h4 { color: #e2e8f0; }

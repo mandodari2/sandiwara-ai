@@ -1,0 +1,106 @@
+{
+  "id": "gen-d5bd9044",
+  "title": "Misteri Rumah Tua",
+  "synopsis": "Seorang detektif muda menyelidiki rumah tua di ujung desa. Ia menemukan surat misterius. Ternyata penghuni rumah itu masih hidup.",
+  "genre": "mystery",
+  "characters": [
+    {
+      "name": "Detektif Raka",
+      "gender": "male"
+    },
+    {
+      "name": "Nenek Sari",
+      "gender": "female"
+    },
+    {
+      "name": "Hantu Tua",
+      "gender": "male"
+    }
+  ],
+  "episodes": [
+    {
+      "id": "gen-6610895c",
+      "title": "Misteri Rumah Tua",
+      "audio_url": "/api/episodes/gen-6610895c/audio",
+      "duration_sec": 0,
+      "script": {
+        "title": "Misteri Rumah Tua",
+        "scenes": [
+          {
+            "location": "Rumah tua di ujung desa",
+            "mood": "mysterious",
+            "lines": [
+              {
+                "speaker": "Narator",
+                "text": "Tidak ada yang menyangka, malam itu akan mengubah segalanya...",
+                "sfx": "rain"
+              },
+              {
+                "speaker": "Narator",
+                "text": "Seorang detektif muda menyelidiki rumah tua di ujung desa."
+              },
+              {
+                "speaker": "Detektif Raka",
+                "text": "Aku tidak akan mundur, apa pun yang terjadi."
+              },
+              {
+                "speaker": "Narator",
+                "text": "Dan di situlah kisah Misteri Rumah Tua dimulai."
+              }
+            ]
+          },
+          {
+            "location": "Pasar malam yang sepi",
+            "mood": "tense",
+            "lines": [
+              {
+                "speaker": "Narator",
+                "text": "Ia menemukan surat misterius."
+              },
+              {
+                "speaker": "Nenek Sari",
+                "text": "Akhirnya kita bertemu lagi. Kau tidak bisa lari dariku."
+              },
+              {
+                "speaker": "Detektif Raka",
+                "text": "Aku tidak lari. Aku datang untuk mengakhiri ini."
+              },
+              {
+                "speaker": "Hantu Tua",
+                "text": "Hati-hati. Dia tidak seperti dulu."
+              },
+              {
+                "speaker": "Narator",
+                "text": "Pedang terhunus. Hujan semakin deras.",
+                "sfx": "sword_clash"
+              }
+            ]
+          },
+          {
+            "location": "Jembatan kayu di atas sungai",
+            "mood": "sad",
+            "lines": [
+              {
+                "speaker": "Narator",
+                "text": "Ternyata penghuni rumah itu masih hidup."
+              },
+              {
+                "speaker": "Detektif Raka",
+                "text": "Ampuni aku... hari ini aku harus memilih."
+              },
+              {
+                "speaker": "Nenek Sari",
+                "text": "Pilihlah. Tapi ingat, pilihanmu ada harganya."
+              },
+              {
+                "speaker": "Narator",
+                "text": "Dan di situlah episode ini berakhir. Bersambung...",
+                "sfx": "wind"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

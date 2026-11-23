@@ -1,0 +1,101 @@
+{
+  "characters": [
+    {
+      "description": "Pendekar muda, pewaris Pedang Naga Puspa",
+      "gender": "male",
+      "name": "Kamandanu"
+    },
+    {
+      "description": "Kakak Kamandanu, bangsawan yang merebut kekuasaan",
+      "gender": "male",
+      "name": "Dwipangga"
+    },
+    {
+      "description": "Gadis Tionghoa-Nusantara, peniup seruling",
+      "gender": "female",
+      "name": "Mei Shin"
+    }
+  ],
+  "episodes": [
+    {
+      "audio_url": "/api/episodes/tutur-tinular-ep1/audio",
+      "duration_sec": 54,
+      "id": "tutur-tinular-ep1",
+      "script": {
+        "scenes": [
+          {
+            "lines": [
+              {
+                "sfx": "rain",
+                "speaker": "Narator",
+                "text": "Di sebuah malam yang hujan, di tengah hutan jati yang gelap, seorang pendekar berlutut di lantai candi yang berlumut."
+              },
+              {
+                "speaker": "Narator",
+                "text": "Orang mengira musuh terberatku adalah pasukan Mongol, atau pengkhianat kerajaan."
+              },
+              {
+                "speaker": "Kamandanu",
+                "text": "Mereka salah. Musuh terberatku adalah darah dagingku sendiri."
+              }
+            ],
+            "location": "Candi berlumut, malam hujan",
+            "mood": "tense"
+          },
+          {
+            "lines": [
+              {
+                "speaker": "Narator",
+                "text": "Arya Dwipangga, kakak kandungku, datang dengan enam prajurit pengawal."
+              },
+              {
+                "speaker": "Dwipangga",
+                "text": "Akhirnya kita bertemu lagi, adikku. Serahkan Pedang Naga Puspa itu."
+              },
+              {
+                "speaker": "Kamandanu",
+                "text": "Pedang ini bukan milikmu, Kakang. Ayah menitipkannya padaku."
+              },
+              {
+                "sfx": "sword_clash",
+                "speaker": "Narator",
+                "text": "Tangan Kamandanu menggenggam gagang pedang. Hujan semakin deras."
+              }
+            ],
+            "location": "Jalan setapak hutan jati",
+            "mood": "tense"
+          },
+          {
+            "lines": [
+              {
+                "speaker": "Kamandanu",
+                "text": "Ampuni aku, Ayah. Hari ini aku terpaksa menghunuskan api ini pada putramu sendiri."
+              },
+              {
+                "speaker": "Narator",
+                "text": "Satu tebasan. Gelombang uap dan bara api meledak ke segala arah."
+              },
+              {
+                "speaker": "Dwipangga",
+                "text": "Satu tebasan lagi, Kakang..."
+              },
+              {
+                "sfx": "wind",
+                "speaker": "Narator",
+                "text": "Sampai suara seruling dari balik kabut itu menghentikan segalanya. Bersambung..."
+              }
+            ],
+            "location": "Lembah berkabut di kaki gunung",
+            "mood": "mysterious"
+          }
+        ],
+        "title": "Bara Naga Puspa"
+      },
+      "title": "Bara Naga Puspa"
+    }
+  ],
+  "genre": "wuxia",
+  "id": "tutur-tinular",
+  "synopsis": "Arya Kamandanu, pewaris Pedang Naga Puspa, harus menghadapi kakak kandungnya sendiri, Arya Dwipangga, yang mencuri wanitanya dan kini datang untuk membunuh demi pedang pusaka.",
+  "title": "Tutur Tinular"
+}

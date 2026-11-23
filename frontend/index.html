@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sandiwara AI — Drama Radio Indonesia</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>🎭 Sandiwara AI</h1>
+  <p class="tagline">Sandiwara radio Indonesia, dihidupkan lagi oleh AI.</p>
+</header>
+
+<nav>
+  <button id="tab-library" class="tab active" onclick="showTab('library')">Perpustakaan</button>
+  <button id="tab-create" class="tab" onclick="showTab('create')">Buat Drama</button>
+</nav>
+
+<main>
+  <section id="view-library">
+    <h2>Cerita Klasik</h2>
+    <div id="story-list" class="story-grid">Memuat...</div>
+    <div id="episode-view" class="hidden">
+      <button onclick="backToLibrary()">← Kembali</button>
+      <h2 id="ep-title"></h2>
+      <p id="ep-synopsis"></p>
+      <div id="ep-list"></div>
+    </div>
+  </section>
+
+  <section id="view-create" class="hidden">
+    <h2>Buat Drama Sendiri</h2>
+    <form id="create-form" onsubmit="generateDrama(event)">
+      <label>Judul
+        <input type="text" id="f-title" required placeholder="cth: Misteri Rumah Tua">
+      </label>
+      <label>Sinopsis
+        <textarea id="f-synopsis" rows="4" required placeholder="Ceritakan idemu dalam 2-3 kalimat..."></textarea>
+      </label>
+      <label>Genre
+        <select id="f-genre">
+          <option value="historical">Sejarah</option>
+          <option value="wuxia">Wuxia / Silat</option>
+          <option value="legend">Legenda</option>
+          <option value="mystery">Misteri</option>
+        </select>
+      </label>
+      <button type="submit" id="gen-btn">🎙️ Generate Drama</button>
+    </form>
+    <div id="gen-status"></div>
+    <div id="gen-result" class="hidden"></div>
+  </section>
+
+  <section id="player" class="hidden">
+    <h3 id="player-title"></h3>
+    <audio id="audio" controls preload="metadata"></audio>
+    <div id="player-script" class="script"></div>
+  </section>
+</main>
+
+<footer>
+  <p>Sandiwara AI — Kiroween 2026 (Resurrection). Dibangun dengan Kiro.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

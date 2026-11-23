@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: sandiwara-ai
+    env: docker
+    plan: free
+    healthCheckPath: /api/stories
